@@ -5,8 +5,8 @@ console.log('Rishu');
 
 // variables
 
-let firstName = "Rishu";
-let lastName = "Verma";
+let firstName = "Amardeep";
+let lastName = "Verma"; 
 console.log(firstName+" "+lastName);
 
 // variables name cannot start with numbers, reserved words.
@@ -63,3 +63,32 @@ console.log(year);
 console.log(typeof year); // Output : number
 
 console.log(typeof null);
+
+/* let , const and var
+1.let - we should always use let to declare variables.It is block scoped.
+2.const - once declared cant be changed.
+3.var - older way to declare var. It is global scoped . never use 
+
+
+
+
+let age = 30;
+age =31; //reassigned 
+
+const birthYear= 2003;
+birthYear = 2004; -- error 
+
+lastName = 'Kohli';
+console.log(lastName);  // we should avoid this without declaring variables
+
+const now = 2037;
+const ageVirat = 2037 - 1991;
+const ageAnushka =  2037 - 1994;
+console.log(ageVirat , ageAnushka);
+
+const now = 2037;
+const ageVirat = now - 1991;
+const ageAnushka =  now - 1994;
+console.log(ageVirat , ageAnushka);
+
+*/
