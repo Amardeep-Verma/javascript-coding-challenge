@@ -1,13 +1,13 @@
-let js = 'amazing';
-if(js === 'amazing') console.log('Javascript is FUN!');
-console.log(40+8 +23 -10);
-console.log('Rishu');
+// let js = 'amazing';
+// if(js === 'amazing') console.log('Javascript is FUN!');
+// console.log(40+8 +23 -10);
+// console.log('Rishu');
 
 // variables
 
-let firstName = "Amardeep";
-let lastName = "Verma"; 
-console.log(firstName+" "+lastName);
+// let firstName = "Amardeep";
+// let lastName = "Verma"; 
+// console.log(firstName+" "+lastName);
 
 // variables name cannot start with numbers, reserved words.
 // variables name can only contain letters,underscores or the dollar $ sign.
@@ -44,7 +44,7 @@ DATA TYPES
     NOTE - JavaScript has dynamic typing : We do not have to manually define the data type of the value stored in a variable . Instead , data types are determined automatically .
     -- Value has type , NOT variables!!!!
 
-*/
+
 
 let javascriptIsFun = true;
 console.log(javascriptIsFun); 
@@ -63,7 +63,7 @@ console.log(year);
 console.log(typeof year); // Output : number
 
 console.log(typeof null);
-
+*/
 /* let , const and var
 1.let - we should always use let to declare variables.It is block scoped.
 2.const - once declared cant be changed.
@@ -103,8 +103,8 @@ Calculate both their BMIs using the formula, and store the results in two variab
 Log the value of BMIMark and BMIJohn to the console.
 BONUS: Create a boolean variable markHigherBMI containing information about whether Mark has a higher BMI than John. Log it to the console too
 TEST DATA: Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.95 m tall.
-*/
 
+solution ;;;;
 const  massMark = 78 ;
 const  heightMark = 1.69;
 const   massJohn = 92;
@@ -115,3 +115,23 @@ BMIJohn = massJohn/(heightJohn*heightJohn);
 console.log(BMIJohn);
 console.log(BMIMark);
 
+
+
+const firstName = 'Rishu';
+const job = 'Student';
+const birthYear = 2003;
+
+const Rishu = "I'm " + firstName + ', a' +  ' '+job+' from '+birthYear 
+
+console.log(Rishu);
+*/
+// string interpolation 
+
+// if else
+
+let age = 19;
+if(age>18){
+  console.log('Adult');
+}else{
+  console.log('Not adult');
+}
