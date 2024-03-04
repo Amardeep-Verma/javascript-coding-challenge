@@ -1,4 +1,4 @@
-// let js = 'amazing';
+ let js = 'amazing';
 // if(js === 'amazing') console.log('Javascript is FUN!');
 // console.log(40+8 +23 -10);
 // console.log('Rishu');
@@ -124,7 +124,7 @@ const birthYear = 2003;
 const Rishu = "I'm " + firstName + ', a' +  ' '+job+' from '+birthYear 
 
 console.log(Rishu);
-*/
+
 // string interpolation 
 
 // if else
@@ -138,5 +138,71 @@ if(age>18){
 
 let x = new Number("1");
 let y = ("1");
-console.log(typeof x);
-console.log(typeof y);
+console.log(typeof x);  //object
+console.log(typeof y); // number
+
+
+
+//Type conversion 
+
+Type conversion (or typecasting) means transfer of data from one data type to another. Implicit conversion happens when the compiler (for compiled languages) or runtime (for script languages like JavaScript) automatically converts data types
+
+
+// Type coersion
+
+Type coercion is the automatic or implicit conversion of values from one data type to another (such as strings to numbers). Type conversion is similar to type coercion because they both convert values from one data type to another with one key difference — type coercion is implicit whereas type conversion can be either implicit or explicit.
+
+*/
+
+//Type converison
+
+const inputYear = '1991';
+console.log(inputYear + 18); //when we have a string and want to add something to the string it will basically concatenate the strings . so we cant expect 18 will be added to the string 1991 . so we get 199119 instead of 2009.
+
+// to overcome this 
+const year = '1991';
+console.log(Number(year)+18);  // 2009
+// but the variable year is still '1991' a string not a number 
+console.log(year); // 1991
+console.log(Number(year)+year); // 19911991
+
+console.log(Number(year)+Number(year)); //3982 soemthing
+
+
+
+// now if we want to convert something that is impossible to convert into a number the output will be nan (not a numeber)
+console.log(Number('John')); //NaN = invalid number 
+console.log(typeof NaN);  // number --> it will show number but its an invalid term 
+
+
+
+console.log(String(23),232);
+
+
+// Type coersion 
+
+// type coersion happens whenever an operator is dealing with two values that have diff type. so in that case js will convert one value to match the other value behind the scenes
+
+
+console.log('I am ' + 23 + ' years old'); // this will convert 23 into string 
+// whenever there is an operation between a string and a number the number will be converted into string thanks to type coersion 
+//  but if js don't have type coersion feature we have to manually do this 
+console.log('I am ' + String(23) + ' years old');
+
+
+console.log('23'-'10'-3); //10
+console.log('23'+'10'+3); //23103
+console.log('23'+'10'-3); //2307
+console.log('23'*'2'); //46
+console.log('23'/'2'); //11.5
+ // + operator will change the values to string.
+ // -,/,* will change the values to numbers because then only the output will be true
+
+
+
+let n = '1' + 1;
+n = n-1;
+console.log(n); // 10
+
+console.log(2+3+4+'5'); //95
+console.log('10'-'4'-'3'-2+'5'); //15
