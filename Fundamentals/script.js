@@ -135,3 +135,8 @@ if(age>18){
 }else{
   console.log('Not adult');
 }
+
+let x = new Number("1");
+let y = ("1");
+console.log(typeof x);
+console.log(typeof y);
