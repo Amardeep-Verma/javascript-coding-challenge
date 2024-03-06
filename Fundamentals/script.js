@@ -206,3 +206,7 @@ console.log(n); // 10
 
 console.log(2+3+4+'5'); //95
 console.log('10'-'4'-'3'-2+'5'); //15
+
+
+
+// TRUTHY AND FALSY VALUES
