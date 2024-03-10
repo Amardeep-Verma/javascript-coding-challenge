@@ -15,4 +15,4 @@ console.log(gameName.length);
 console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));
 
-// number and math
+// date and time 
