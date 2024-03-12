@@ -56,14 +56,14 @@ const calcAge3 = birthYear => 2037 - birthYear;
 const age3 =  calcAge3(1991);
 console.log(age3);
 
-const yearsUntilRetirement = (birthYear,firstName) => {
-    const age = 2037 - birthYear;
-    const retirement = 65 - age;
-    return `${firstName} retires in ${retirement}`
-}
+// const yearsUntilRetirement = (birthYear,firstName) => {
+//     const age = 2037 - birthYear;
+//     const retirement = 65 - age;
+//     return `${firstName} retires in ${retirement}`
+// }
 
-console.log(yearsUntilRetirement(1991, 'Rishu'));
-console.log(yearsUntilRetirement(1980, 'Amar'));
+// console.log(yearsUntilRetirement(1991, 'Rishu'));
+// console.log(yearsUntilRetirement(1980, 'Amar'));
 
 
 // FUNCTION CALLING OTHER FUNCTIONS
@@ -83,3 +83,16 @@ function fruitProcessor(apple , oranges){
 console.log(fruitProcessor(2,3));
 
 
+
+
+
+
+
+const mul = function (x,y){
+    return x * y;
+}
+const multiply = mul(2,6);
+console.log(multiply);
+
+x= 4-'-4';
+console.log(x);
