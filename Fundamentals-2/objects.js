@@ -112,3 +112,17 @@ output  {
 //     }
 // };
  
+// this keyword
+
+const user = {
+    username : "Rishu",
+    age : 21,
+
+    welcomeMessage : function(){
+        console.log(`${this.username} , welcome to website`);
+    }
+}
+
+user.welcomeMessage()
+user.username = 'Sam';
+user.welcomeMessage()
